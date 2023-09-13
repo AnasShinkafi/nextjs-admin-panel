@@ -31,7 +31,7 @@ const Language = () => {
           {language.map((item) => (
             <div
               className={`flex justify-center items-center p-2 hover:bg-orange-300 cursor-pointer`}
-              key={item}
+              key={item.id}
               onClick={() => {
                 setOpen(false);
               }}

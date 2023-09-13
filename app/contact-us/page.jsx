@@ -2,7 +2,7 @@ import React from 'react'
 
 const ContactPage = () => {
   return (
-    <div>ContactPage</div>
+    <div className=' bg-white rounded-lg mx-4'>ContactPage</div>
   )
 }
 

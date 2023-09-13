@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutPage = () => {
   return (
-    <div>AboutPage</div>
+    <div className=' bg-white rounded-lg mx-4'>AboutPage</div>
   )
 }
 
