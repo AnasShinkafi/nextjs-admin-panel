@@ -23,7 +23,7 @@ const UserArea = () => {
           className="p-2 cursor-pointer"
         > 
         {/* <Image src={'/anas.jpg'} alt="" width={50} height={50} className=" rounded-xl"/> */}
-          
+          <span className="">User Area</span>
         </div>
         <div
           className={` flex flex-col bg-sky-200 w-40 my-2 rounded-lg ${

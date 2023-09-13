@@ -8,6 +8,7 @@ const cities = ["Shinkafi", "Abuja", "Kaduna", "Kano", "Yola"];
 const CustomSelectBox = () => {
   const [selectedCity, setSelectedCity] = useState("Shinkafi");
   const [open, setOpen] = useState(false);
+
   return (
     <>
       <div className=" bg-gray-100 flex flex-col justify-center items-center w-fit relative z-30">
@@ -30,7 +31,7 @@ const CustomSelectBox = () => {
               }`}
               key={item}
               onClick={() => {
-                selectedCity(item);
+                setSelectedCity(item);
                 setOpen(false);
               }}
             >

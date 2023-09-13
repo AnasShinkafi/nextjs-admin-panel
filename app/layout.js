@@ -1,5 +1,5 @@
 
-import MainLayout from '@/components/layout/MainLayout';
+import MainLayout from '@/components/MainLayout';
 import './globals.css';
 import MenuContextProvider from '@/context/MenuContext';
 
